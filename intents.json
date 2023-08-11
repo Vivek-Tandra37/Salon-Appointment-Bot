@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "saloon",
+         "patterns": ["can you suggest me a saloon?","i need a hair cut!","i need a best saloon in this city"],
+         "responses": ["Yes, sure can i know your name?"],
+         "context": [""]
+        },
+        {"tag": "name",
+        "patterns": ["this is john","iam ram","iam seetha","iam ritha","iam ram"],
+        "responses": ["Ok,can i know your location pincode"],
+        "context": [""]
+       },
+       {"tag": "location",
+       "patterns": ["12345","521101","23456","34567"],
+       "responses": ["Ok,can i know your gender?"],
+       "context": [""]
+      },
+      {"tag": "male",
+      "patterns": ["male","M","boy","men"],
+      "responses": ["'Tony and Guy' Saloon is best for MEN in your city specify time for the appointment?"],
+      "context": [""]
+     },
+     {"tag": "female",
+     "patterns": ["female","F","girl","women"],
+     "responses": ["'Kolors Women' Saloon is best for Female in your city specify time for the appointment?"],
+     "context": [""]
+    },
+    {"tag": "Time",
+    "patterns": ["1pm","4pm","5pm","6pm","tomorrow","Today","day","4pm"],
+    "responses": ["Great!It was made","They were occupied during the time you mentioned earlier, so please suggest an alternative time."],
+    "context": [""]
+   }
+
+
+    ]}
